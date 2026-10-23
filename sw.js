@@ -79,66 +79,69 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
   workbox.precacheAndRoute([{
     "url": "registerSW.js",
     "revision": "1872c500de691dce40960bb85481de07"
-  },
-  {
+  }, {
     "url": "pwa-maskable-512x512.png",
-    "revision": "3da65c71ddece381bd7e7c3ce4c1b008"
-  },
-  {
+    "revision": "c40617deae5bd700cc537655db664728"
+  }, {
     "url": "pwa-512x512.png",
-    "revision": "3da65c71ddece381bd7e7c3ce4c1b008"
-  },
-  {
+    "revision": "c40617deae5bd700cc537655db664728"
+  }, {
     "url": "pwa-192x192.png",
-    "revision": "ab98eb869c4008643d2ad349e91d66a8"
-  },
-  {
-    "url": "page_images.json",
-    "revision": "f96f8cd40cec89d800abf22a84b880e2"
-  },
-  {
+    "revision": "a90906d56caf488a20a7b2c7a58960f1"
+  }, {
     "url": "manifest.json",
-    "revision": "b75bcd0345d1946fd12d2290f655b21c"
-  },
-  {
+    "revision": "f58f5f66fe9318790f076b0cc5d46d3e"
+  }, {
     "url": "logo-lome-logement.png",
-    "revision": "107b8ad2836c1e4d66101ffc43f8aa6b"
-  },
-  {
+    "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
+  }, {
     "url": "index.html",
-    "revision": "d43c2955c541c941755954bfb0178ba1"
-  },
-  {
-    "url": "index-50c5a9e2.js",
-    "revision": "50c5a9e29c94b2a85cbe812d89887877"
-  },
-  {
-    "url": "index-BuEEFDxi.css",
-    "revision": "88e695275ed95f4ef7f063e320559670"
-  },
-  {
+    "revision": "a38bc1af9bb2b974cda14aeeb7c0cffd"
+  }, {
+    "url": "index-JYEjn0Nv.js",
+    "revision": "6c6edb6c290207d33a1397c8ef0e0694"
+  }, {
+    "url": "index-BrhWXBDO.css",
+    "revision": "5eb21b513bdf0d0136d0ecb5e04c4315"
+  }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
-  },
-  {
+  }, {
     "url": "favicon.ico",
-    "revision": "f55468a23b36bf4cc2ffffc4648bf191"
-  },
-  {
+    "revision": "06727b59b9bbbd40404f047874e78439"
+  }, {
     "url": "apple-touch-icon.png",
-    "revision": "06f3f7660d790a37df184e753813de2a"
-  },
-  {
+    "revision": "026a4a1fc32bce801df4c56a5d987dcf"
+  }, {
+    "url": "apple-touch-icon.png",
+    "revision": "026a4a1fc32bce801df4c56a5d987dcf"
+  }, {
+    "url": "favicon.ico",
+    "revision": "06727b59b9bbbd40404f047874e78439"
+  }, {
+    "url": "icon.svg",
+    "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
+  }, {
+    "url": "logo-lome-logement.png",
+    "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
+  }, {
+    "url": "pwa-192x192.png",
+    "revision": "a90906d56caf488a20a7b2c7a58960f1"
+  }, {
+    "url": "pwa-512x512.png",
+    "revision": "c40617deae5bd700cc537655db664728"
+  }, {
+    "url": "pwa-maskable-512x512.png",
+    "revision": "c40617deae5bd700cc537655db664728"
+  }, {
     "url": "robots.txt",
     "revision": "6ed1a9879d57bbb6da66e77cbe21c130"
-  },
-  {
+  }, {
     "url": "sitemap.xml",
     "revision": "028bf4952e0645e43d5b567a96579916"
-  },
-  {
+  }, {
     "url": "manifest.webmanifest",
-    "revision": "7fc210d9aa7afcd57e8956cb08b04390"
+    "revision": "58b25ca87307a65b01ff8464b730d042"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
