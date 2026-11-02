@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lome-logements.tg/sitemap.xml
+Sitemap: https://lome-logements.pages.dev/sitemap.xml

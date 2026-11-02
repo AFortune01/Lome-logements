@@ -1,3 +1,3 @@
-LOMÉ-LOGEMENTS - Site Statique Précompilé
-Glissez-déposez le contenu de cette archive directement sur Cloudflare Pages (Direct Upload) ou Netlify Drop.
-Tous les fichiers (index.html, sitemap.xml, robots.txt, etc.) sont directement à la racine de l'archive.
+LOMÉ-LOGEMENTS - Site statique précompilé (sans sous-dossiers)
+Décompressez, puis glissez-déposez TOUS les fichiers directement sur Cloudflare Pages (Direct Upload).
+Tous les fichiers sont à la racine, il n'y a aucun dossier.

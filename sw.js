@@ -89,20 +89,17 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "pwa-192x192.png",
     "revision": "a90906d56caf488a20a7b2c7a58960f1"
   }, {
-    "url": "manifest.json",
-    "revision": "f58f5f66fe9318790f076b0cc5d46d3e"
-  }, {
     "url": "logo-lome-logement.png",
     "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
   }, {
     "url": "index.html",
-    "revision": "b3baf299156f9b151e00b541a4698610"
+    "revision": "e38cc686c3774295e459f23cea42b1d6"
   }, {
     "url": "index-pnSFC0dR.css",
     "revision": "c773adbaf0dc9b7c6136c520d6772f43"
   }, {
-    "url": "index-Drb6OWnS.js",
-    "revision": "e83edc5ec9db05841c92c3486f997fed"
+    "url": "index-CQ44pTWb.js",
+    "revision": "b12a56cf18e1fea06c51d71e7e57c9a1"
   }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
@@ -135,13 +132,13 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "c40617deae5bd700cc537655db664728"
   }, {
     "url": "robots.txt",
-    "revision": "6ed1a9879d57bbb6da66e77cbe21c130"
+    "revision": "740bcf1e48fdf438e7e8678fbf5a8cd7"
   }, {
     "url": "sitemap.xml",
-    "revision": "028bf4952e0645e43d5b567a96579916"
+    "revision": "2fed1ad954e2215e4b31378176855f37"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "58b25ca87307a65b01ff8464b730d042"
+    "revision": "ec2af2482d180b20edf303a117345c52"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
