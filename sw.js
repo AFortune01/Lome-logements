@@ -92,14 +92,35 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "logo-lome-logement.png",
     "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
   }, {
+    "url": "a-propos.html",
+    "revision": "21a2e1c10222688d68d38472800153df"
+  }, {
+    "url": "guide-locataire.html",
+    "revision": "1d690ccff99464f6844d83c489cc8b70"
+  }, {
+    "url": "guide-agent.html",
+    "revision": "a3b3550cc506dbad33c131738a20c938"
+  }, {
+    "url": "mentions-legales.html",
+    "revision": "554ac71260b171e478ec4bb9de4a6db1"
+  }, {
+    "url": "conditions.html",
+    "revision": "5f05dbc2573007287fc6cfbbc2eeaacc"
+  }, {
+    "url": "confidentialite.html",
+    "revision": "440ada0990da97f2c837b41f8535a5a6"
+  }, {
+    "url": "suppression-donnees.html",
+    "revision": "08654edff1b808d78901c8e11e8b9e89"
+  }, {
     "url": "index.html",
-    "revision": "589811f3f9dffa179f13dab740dd4fec"
+    "revision": "3bd6127cb024fb32155209c51836c2e6"
   }, {
     "url": "index-pnSFC0dR.css",
     "revision": "c773adbaf0dc9b7c6136c520d6772f43"
   }, {
-    "url": "index-6K9v9yRe.js",
-    "revision": "b3fd3a6b369b749f73a3aaac59c0b0a5"
+    "url": "index-gPLxWUd2.js",
+    "revision": "c9a2c9b7918e2202cec9cb89e2f83406"
   }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
@@ -135,12 +156,12 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "740bcf1e48fdf438e7e8678fbf5a8cd7"
   }, {
     "url": "sitemap.xml",
-    "revision": "2fed1ad954e2215e4b31378176855f37"
+    "revision": "b598650bb092f8638107c5d7eb296249"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "ec2af2482d180b20edf303a117345c52"
+    "revision": "9830e30f2b0eab67c18b07f994b196ba"
   }], {});
   workbox.cleanupOutdatedCaches();
-  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
+  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {denylist: [/^\/(a-propos|guide-locataire|guide-agent|mentions-legales|conditions|confidentialite|suppression-donnees)(\.html)?$/]}));
 
 }));
