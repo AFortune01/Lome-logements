@@ -93,46 +93,55 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
   }, {
     "url": "a-propos.html",
-    "revision": "e94eafae236d96cce156b84bc80133c6"
+    "revision": "5138b62420ca2b2d35b7bc1aafe72863"
   }, {
     "url": "guide-locataire.html",
-    "revision": "73d86adc7a5ea4e20bb7201f9fe1d49e"
+    "revision": "c94dc7d7e68d88a184c442b128c9587c"
   }, {
     "url": "guide-agent.html",
-    "revision": "44b6246610d3dd0a26f2c92f0cd9733e"
+    "revision": "aac84372a7ba9d0108e52adfe8c01c26"
   }, {
     "url": "mentions-legales.html",
-    "revision": "2c831ed01d62f54502aa65e5694c295c"
+    "revision": "8a835776f5d368e25b66877a456dedc9"
   }, {
     "url": "conditions.html",
-    "revision": "dd28ebb0fd63809ea972a42395026efb"
+    "revision": "194ea085583f8595a1933de11415b89f"
   }, {
     "url": "confidentialite.html",
-    "revision": "47949d28271a5140da0a048a9f510b65"
+    "revision": "9bea59aa89d2b369c62c803922d63beb"
   }, {
     "url": "suppression-donnees.html",
-    "revision": "0253e4e26ac3a6372133f7ada41a9304"
+    "revision": "2a5473b125314bd1be74ed0292972775"
   }, {
     "url": "faq.html",
-    "revision": "7e435281159e0268d2dd92be41e26dce"
+    "revision": "e0aa4b64a02139603ff495104c8c8f69"
   }, {
     "url": "contact.html",
-    "revision": "37ddad52372dc3d5bf21509ff3674159"
+    "revision": "1c85181e02a85e4abe9fb8ac201bb4aa"
+  }, {
+    "url": "favicon-48x48.png",
+    "revision": "3e2d792d7d15fbc33bab9ffe99710f04"
+  }, {
+    "url": "favicon-96x96.png",
+    "revision": "adecb6f113e48b6bcd568a09b411af7e"
+  }, {
+    "url": "favicon-192x192.png",
+    "revision": "b35db618bd2a11d99049dedf9f325793"
   }, {
     "url": "index.html",
-    "revision": "fbb4e649968b239e26cf8858d0fb43dd"
+    "revision": "510d5e2c411339bb816d2e0b5de367e3"
   }, {
     "url": "index-pnSFC0dR.css",
     "revision": "c773adbaf0dc9b7c6136c520d6772f43"
   }, {
-    "url": "index-qjtYt8mb.js",
-    "revision": "d3f7f51941da0f18b78a2c45e98d7774"
+    "url": "index-EANRSFpY.js",
+    "revision": "8780b6089a97e1569478d57ffd2caf16"
   }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
   }, {
     "url": "favicon.ico",
-    "revision": "06727b59b9bbbd40404f047874e78439"
+    "revision": "afeb3fafff32b07499ad39cab88182e2"
   }, {
     "url": "apple-touch-icon.png",
     "revision": "026a4a1fc32bce801df4c56a5d987dcf"
@@ -141,7 +150,7 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "026a4a1fc32bce801df4c56a5d987dcf"
   }, {
     "url": "favicon.ico",
-    "revision": "06727b59b9bbbd40404f047874e78439"
+    "revision": "afeb3fafff32b07499ad39cab88182e2"
   }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
