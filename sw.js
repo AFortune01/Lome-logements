@@ -93,34 +93,40 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
   }, {
     "url": "a-propos.html",
-    "revision": "21a2e1c10222688d68d38472800153df"
+    "revision": "e94eafae236d96cce156b84bc80133c6"
   }, {
     "url": "guide-locataire.html",
-    "revision": "1d690ccff99464f6844d83c489cc8b70"
+    "revision": "73d86adc7a5ea4e20bb7201f9fe1d49e"
   }, {
     "url": "guide-agent.html",
-    "revision": "a3b3550cc506dbad33c131738a20c938"
+    "revision": "44b6246610d3dd0a26f2c92f0cd9733e"
   }, {
     "url": "mentions-legales.html",
-    "revision": "554ac71260b171e478ec4bb9de4a6db1"
+    "revision": "2c831ed01d62f54502aa65e5694c295c"
   }, {
     "url": "conditions.html",
-    "revision": "5f05dbc2573007287fc6cfbbc2eeaacc"
+    "revision": "dd28ebb0fd63809ea972a42395026efb"
   }, {
     "url": "confidentialite.html",
-    "revision": "440ada0990da97f2c837b41f8535a5a6"
+    "revision": "47949d28271a5140da0a048a9f510b65"
   }, {
     "url": "suppression-donnees.html",
-    "revision": "08654edff1b808d78901c8e11e8b9e89"
+    "revision": "0253e4e26ac3a6372133f7ada41a9304"
+  }, {
+    "url": "faq.html",
+    "revision": "7e435281159e0268d2dd92be41e26dce"
+  }, {
+    "url": "contact.html",
+    "revision": "37ddad52372dc3d5bf21509ff3674159"
   }, {
     "url": "index.html",
-    "revision": "097d8814c6f7b03ecabafbf3e6926817"
+    "revision": "fbb4e649968b239e26cf8858d0fb43dd"
   }, {
     "url": "index-pnSFC0dR.css",
     "revision": "c773adbaf0dc9b7c6136c520d6772f43"
   }, {
-    "url": "index-RHBdZNjz.js",
-    "revision": "0de4d7b8fe66815febd1ecebe7f704e4"
+    "url": "index-qjtYt8mb.js",
+    "revision": "d3f7f51941da0f18b78a2c45e98d7774"
   }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
@@ -156,12 +162,12 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "740bcf1e48fdf438e7e8678fbf5a8cd7"
   }, {
     "url": "sitemap.xml",
-    "revision": "b598650bb092f8638107c5d7eb296249"
+    "revision": "cd924f95594d297177ca910283941bd8"
   }, {
     "url": "manifest.webmanifest",
     "revision": "9830e30f2b0eab67c18b07f994b196ba"
   }], {});
   workbox.cleanupOutdatedCaches();
-  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {denylist: [/^\/(a-propos|guide-locataire|guide-agent|mentions-legales|conditions|confidentialite|suppression-donnees)(\.html)?$/]}));
+  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {denylist: [/^\/(a-propos|faq|guide-locataire|guide-agent|contact|mentions-legales|conditions|confidentialite|suppression-donnees)(\.html)?$/]}));
 
 }));

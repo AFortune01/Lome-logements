@@ -4,82 +4,87 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Guide de l'agent : bien publier son annonce | LOMÉ-LOGEMENTS</title>
-<meta name="description" content="Comment réussir une annonce sur LOMÉ-LOGEMENTS : photos réelles, informations exactes, paiement Mobile Money, mise à jour quand le bien est loué.">
+<meta name="description" content="Une bonne annonce reçoit plus de contacts et inspire confiance. Voici comment faire.">
 <link rel="canonical" href="https://lome-logements.pages.dev/guide-agent.html">
 <meta name="theme-color" content="#0B3B70">
 <link rel="icon" href="/favicon.ico">
 <style>
-:root{--navy:#0B3B70;--gold:#C69214;--bg:#f6f8fb;--card:#fff;--txt:#1b2430;--muted:#5b6675;--line:#dfe6ef}
-@media (prefers-color-scheme:dark){:root{--bg:#0e1620;--card:#152233;--txt:#e9eef5;--muted:#a9b6c6;--line:#243449}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
-header{background:var(--navy);color:#fff;padding:14px 18px;display:flex;align-items:center;gap:12px;border-bottom:3px solid var(--gold)}
-header img{width:38px;height:38px;border-radius:8px;background:#fff}
-header a{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.2px}
-header .back{margin-left:auto;font-weight:700;font-size:14px;background:var(--gold);color:#0b1b30;padding:8px 12px;border-radius:10px}
-main{max-width:760px;margin:0 auto;padding:22px 18px 40px}
-h1{font-size:26px;line-height:1.25;margin:6px 0 6px;color:var(--navy)}
-@media (prefers-color-scheme:dark){h1{color:#cfe0f7}}
-h2{font-size:19px;margin:26px 0 6px;color:var(--navy)}
-@media (prefers-color-scheme:dark){h2{color:#cfe0f7}}
-p,li{color:var(--txt)}ul,ol{padding-left:22px}li{margin:5px 0}
-.meta{color:var(--muted);font-size:13px;margin:0 0 14px}
-.box{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:12px 16px;margin:16px 0}
-.warn{border-left-color:#b3402f}
-a{color:#0b5cad}@media (prefers-color-scheme:dark){a{color:#8fc0ff}}
-footer{max-width:760px;margin:0 auto;padding:0 18px 34px;color:var(--muted);font-size:13px}
-footer nav{display:flex;flex-wrap:wrap;gap:6px 14px;border-top:1px solid var(--line);padding-top:14px}
-.btn{display:inline-block;background:#25D366;color:#fff!important;text-decoration:none;font-weight:800;padding:11px 16px;border-radius:12px;margin:8px 0}
+:root{--navy:#0B3B70;--navy2:#14508f;--gold:#C69214;--bg:#f3f6fa;--card:#fff;--txt:#17212e;--muted:#566275;--line:#dde5ef;--soft:#eef3f9;--ok:#1f7a45;--warn:#a5361f;--shadow:0 1px 2px rgba(11,59,112,.06),0 6px 22px rgba(11,59,112,.07)}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1520;--card:#142133;--txt:#e8eef6;--muted:#a3b1c4;--line:#233449;--soft:#1a2b42;--shadow:0 1px 2px rgba(0,0,0,.3)}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:#0b5cad;text-underline-offset:2px}@media (prefers-color-scheme:dark){a{color:#8fc0ff}}
+.top{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:3px solid var(--gold)}
+.top img{width:36px;height:36px;border-radius:9px;background:#fff}
+.top .brand{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.2px;font-size:14px;white-space:nowrap}
+.top .back{margin-left:auto;background:var(--gold);color:#0b1b30;text-decoration:none;font-weight:800;font-size:12.5px;padding:8px 10px;border-radius:10px;white-space:nowrap}
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;padding:30px 18px 54px}
+.hero .in{max-width:860px;margin:0 auto}
+.hero .tag{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:4px 11px;border-radius:99px;font-size:12px;font-weight:700;letter-spacing:.4px;margin-bottom:12px}
+.hero h1{margin:0 0 8px;font-size:clamp(26px,5.4vw,38px);line-height:1.18}
+.hero p.lead{margin:0;font-size:17px;max-width:640px;color:#dfe9f6}
+.wrap{max-width:860px;margin:-30px auto 0;padding:0 14px 40px}
+.toc{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 12px;scrollbar-width:none}
+.toc::-webkit-scrollbar{display:none}
+.toc a{flex:0 0 auto;background:var(--card);border:1px solid var(--line);color:var(--navy);padding:7px 13px;border-radius:99px;font-size:13px;font-weight:700;text-decoration:none;box-shadow:var(--shadow)}
+@media (prefers-color-scheme:dark){.toc a{color:#cfe0f7}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 20px 16px;margin:0 0 14px;box-shadow:var(--shadow)}
+.card h2{margin:0 0 10px;font-size:20px;line-height:1.3;color:var(--navy);display:flex;align-items:center;gap:10px}
+@media (prefers-color-scheme:dark){.card h2{color:#cfe0f7}}
+.card h2 .n{flex:0 0 auto;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+.card p{margin:0 0 10px;color:var(--txt)}
+.card ul,.card ol{margin:6px 0 8px;padding-left:22px}.card li{margin:6px 0}
+.grid{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:640px){.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:1fr 1fr 1fr}}
+.feat{background:var(--soft);border-radius:14px;padding:14px}.feat b{display:block;margin-bottom:3px}.feat .i{font-size:24px;display:block;margin-bottom:4px}.feat span{color:var(--muted);font-size:14.5px;line-height:1.5}
+.note{border-radius:14px;padding:12px 15px;margin:12px 0;background:#fff7e0;border-left:5px solid var(--gold);color:#3a2d06}
+.note.danger{background:#fdecea;border-left-color:#c0392b;color:#5a1b14}
+.note.ok{background:#e8f6ee;border-left-color:#1f7a45;color:#143b24}
+@media (prefers-color-scheme:dark){.note{background:#2a2410;color:#f3e3b0}.note.danger{background:#2c1512;color:#f6c8c1}.note.ok{background:#12281b;color:#bfe8cd}}
+.steps{list-style:none;padding:0!important;counter-reset:s}.steps li{counter-increment:s;position:relative;padding-left:42px;margin:12px 0}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--gold);color:#0b1b30;font-weight:800;display:flex;align-items:center;justify-content:center}
+details{border:1px solid var(--line);border-radius:14px;padding:0 14px;margin:9px 0;background:var(--card)}
+details[open]{background:var(--soft)}summary{cursor:pointer;font-weight:700;padding:13px 0;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::-webkit-details-marker{display:none}summary::after{content:"＋";color:var(--gold);font-size:20px;line-height:1}details[open] summary::after{content:"－"}
+details p{margin:0 0 13px;color:var(--txt)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:#1da851;color:#fff!important;text-decoration:none;font-weight:800;padding:12px 18px;border-radius:13px;margin:6px 6px 6px 0}
+.btn.alt{background:var(--navy)}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:6px 14px;margin:6px 0}.kv dt{color:var(--muted);font-weight:700;font-size:14px}.kv dd{margin:0}
+@media (max-width:520px){.kv{grid-template-columns:1fr}.kv dd{margin-bottom:8px}}
+.hub{display:grid;gap:10px;grid-template-columns:1fr 1fr}@media (min-width:640px){.hub{grid-template-columns:repeat(3,1fr)}}
+.hub a{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;text-decoration:none;color:var(--txt);font-weight:700;box-shadow:var(--shadow)}.hub a span{display:block;font-size:22px;margin-bottom:2px}
+.foot{max-width:860px;margin:0 auto;padding:6px 16px 90px;color:var(--muted);font-size:14px}
+.foot h3{font-size:13px;letter-spacing:.5px;text-transform:uppercase;margin:16px 0 6px;color:var(--muted)}
+.foot nav{display:flex;flex-wrap:wrap;gap:6px 16px}.foot a{color:var(--navy);font-weight:600}@media (prefers-color-scheme:dark){.foot a{color:#9fc6ff}}
+.foot hr{border:0;border-top:1px solid var(--line);margin:18px 0 12px}
+.fab{position:fixed;right:14px;bottom:14px;z-index:30;background:#1da851;color:#fff!important;text-decoration:none;font-weight:800;padding:13px 17px;border-radius:99px;box-shadow:0 6px 20px rgba(0,0,0,.28);font-size:14px}
+@media print{.top,.fab,.toc{display:none}.hero{background:none;color:#000;padding:0}.card{box-shadow:none}}
 </style>
 </head>
 <body>
-<header>
-<img src="/logo-lome-logement.png" alt="" width="38" height="38">
-<a href="/">LOMÉ-LOGEMENTS</a>
-<a class="back" href="/">← Retour au site</a>
+<header class="top">
+<img src="/logo-lome-logement.png" alt="" width="36" height="36">
+<a class="brand" href="/">LOMÉ-LOGEMENTS</a>
+<a class="back" href="/">← Site</a>
 </header>
-<main>
+<div class="hero"><div class="in">
+<span class="tag">Guide</span>
 <h1>Guide de l'agent : bien publier son annonce</h1>
-<p class="meta">Dernière mise à jour : 6 novembre 2026</p>
+<p class="lead">Une bonne annonce reçoit plus de contacts et inspire confiance. Voici comment faire.</p>
+</div></div>
+<main class="wrap">
+<nav class="toc" aria-label="Sur cette page"><a href="#etapes">Publier en 3 étapes</a><a href="#photos">Réussir ses photos</a><a href="#infos">Les informations à donner</a><a href="#apres">Après la publication</a><a href="#interdit">Ce qui est interdit</a><a href="#aide">Besoin d'aide ?</a></nav>
+<section class="card" id="etapes"><h2><span class="n">1</span>Publier en 3 étapes</h2><ol class="steps"><li><b>Déclarant</b> : votre nom, votre numéro WhatsApp, votre zone et, si possible, le lien de votre page Facebook ou profil professionnel (facultatif, mais cela rassure).</li><li><b>Bien et photos</b> : catégorie, titre, loyer, caution, adresse précise et photos.</li><li><b>Paiement</b> : frais de publication par Mobile Money (T-Money ou Flooz), avec la référence de la transaction. Les tarifs en vigueur sont affichés lors du dépôt.</li></ol></section>
+<section class="card" id="photos"><h2><span class="n">2</span>Réussir ses photos</h2><div class="grid two"><div class="feat"><span class="i">📱</span><b>Vraies et récentes</b><span>Photos de ce bien, jamais d'images prises ailleurs.</span></div><div class="feat"><span class="i">🚪</span><b>Dans l'ordre d'une visite</b><span>Façade et entrée, séjour, chambre, cuisine et sanitaires.</span></div><div class="feat"><span class="i">💡</span><b>Bonne lumière</b><span>De jour, téléphone à l'horizontale, sans filtre.</span></div><div class="feat"><span class="i">🔎</span><b>Pas de photo floue</b><span>Nettoyez l'objectif et prenez la photo deux fois si besoin.</span></div></div></section>
+<section class="card" id="infos"><h2><span class="n">3</span>Les informations à donner</h2><ul><li>Loyer exact et nombre de mois de caution ou d'avance.</li><li>Eau, courant, clôture, garage.</li><li>Un repère clair (« à 100 m du goudron », « derrière la pharmacie »).</li><li>Vos jours et heures de visite.</li></ul></section>
+<section class="card" id="apres"><h2><span class="n">4</span>Après la publication</h2><ul><li>Répondez vite : la plupart des locataires contactent plusieurs annonces à la fois.</li><li><b>Dès que le bien est loué, prévenez-nous</b> : nous le marquons « Loué ». Une annonce à jour garde votre réputation.</li><li>Ne demandez jamais d'argent avant une visite.</li></ul></section>
+<section class="card" id="interdit"><h2><span class="n">5</span>Ce qui est interdit</h2><div class="note danger"><ul style="margin:0;padding-left:20px"><li>Fausses annonces, photos qui ne correspondent pas au bien, prix trompeurs.</li><li>Proposer un bien sans en avoir le droit.</li><li>Demander de l'argent avant la visite.</li></ul></div><p>Les annonces qui ne respectent pas ces règles peuvent être refusées ou retirées.</p></section>
+<section class="card" id="aide"><h2><span class="n">6</span>Besoin d'aide ?</h2><p>Une question sur le dépôt ou le paiement ?</p><a class="btn" href="https://wa.me/22893360308">💬 Écrire sur WhatsApp (+228 93 36 03 08)</a></section>
 
-<p>Une bonne annonce reçoit plus de contacts et inspire confiance. Voici comment faire.</p>
-<h2>Les 3 étapes pour publier</h2>
-<ol>
-<li><b>Déclarant :</b> votre nom, votre numéro WhatsApp, votre zone, et si possible le lien de votre page Facebook ou profil professionnel (facultatif, mais cela rassure).</li>
-<li><b>Bien et photos :</b> catégorie, titre, loyer, caution, adresse précise et photos.</li>
-<li><b>Paiement :</b> frais de publication par Mobile Money (T-Money ou Flooz), avec la référence de la transaction. Les tarifs en vigueur sont affichés lors du dépôt.</li>
-</ol>
-<h2>Réussir ses photos</h2>
-<ul>
-<li>Photos <b>réelles et récentes</b> de ce bien, jamais d'images prises ailleurs.</li>
-<li>Dans l'ordre d'une visite : façade et entrée, séjour, chambre, cuisine et sanitaires.</li>
-<li>Bonne lumière, téléphone tenu à l'horizontale, sans filtre.</li>
-</ul>
-<h2>Les informations à donner</h2>
-<ul>
-<li>Loyer exact, nombre de mois de caution ou d'avance, eau, courant, clôture, garage.</li>
-<li>Un repère clair (« à 100 m du goudron », « derrière la pharmacie… »).</li>
-<li>Vos jours et heures de visite.</li>
-</ul>
-<h2>Après la publication</h2>
-<ul>
-<li>Répondez vite : la plupart des locataires contactent plusieurs annonces à la fois.</li>
-<li><b>Dès que le bien est loué, prévenez-nous</b> : nous le marquons « Loué ». Une annonce à jour garde votre réputation.</li>
-<li>Ne demandez jamais d'argent avant une visite.</li>
-</ul>
-<h2>Ce qui est interdit</h2>
-<ul>
-<li>Fausses annonces, photos qui ne correspondent pas au bien, prix trompeurs.</li>
-<li>Bien proposé sans en avoir le droit.</li>
-<li>Toute demande d'argent avant la visite.</li>
-</ul>
-<p>Les annonces qui ne respectent pas ces règles peuvent être refusées ou retirées.</p>
-<p><a class="btn" href="https://wa.me/22893360308">Une question ? WhatsApp</a></p>
 
+<p style="color:var(--muted);font-size:13px;margin:4px 6px 0">Dernière mise à jour : 9 novembre 2026</p>
 </main>
-<footer>
-<nav aria-label="Informations"><a href="/a-propos.html">À propos</a><a href="/guide-locataire.html">Guide du locataire</a><a href="/guide-agent.html">Guide de l'agent</a><a href="/mentions-legales.html">Mentions légales</a><a href="/conditions.html">Conditions d'utilisation</a><a href="/confidentialite.html">Confidentialité</a><a href="/suppression-donnees.html">Supprimer mes données</a></nav>
-<p>© LOMÉ-LOGEMENTS — Marché locatif de Lomé (Togo).</p>
-</footer>
+<footer class="foot"><hr><h3>Découvrir</h3><nav><a href="/a-propos.html">À propos</a><a href="/faq.html">Questions fréquentes</a><a href="/guide-locataire.html">Guide du locataire</a><a href="/guide-agent.html">Guide de l'agent</a><a href="/contact.html">Contact</a></nav><h3>Informations légales</h3><nav><a href="/mentions-legales.html">Mentions légales</a><a href="/conditions.html">Conditions d'utilisation</a><a href="/confidentialite.html">Confidentialité</a><a href="/suppression-donnees.html">Supprimer mes données</a></nav><hr><p>© LOMÉ-LOGEMENTS — Annonces de logements à Lomé (Togo).</p></footer>
+<a class="fab" href="https://wa.me/22893360308" aria-label="Écrire sur WhatsApp">💬 WhatsApp</a>
 </body>
 </html>
