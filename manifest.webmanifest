@@ -1,7 +1,7 @@
 {
   "name": "LOMÉ-LOGEMENTS – Location Immobilière à Lomé",
   "short_name": "LoméLogement",
-  "description": "Plateforme d'annonces immobilières pour le marché locatif de Lomé (Togo). Contact direct WhatsApp avec les agents certifiés.",
+  "description": "Plateforme d'annonces immobilières pour le marché locatif de Lomé (Togo). Contact direct WhatsApp avec les agents.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0B3B70",

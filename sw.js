@@ -93,31 +93,28 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "fb70a04d8d77e6f0a090f4f398b2cbc3"
   }, {
     "url": "a-propos.html",
-    "revision": "5138b62420ca2b2d35b7bc1aafe72863"
+    "revision": "4738e9ab12c2b30e9010c76805c05020"
   }, {
     "url": "guide-locataire.html",
-    "revision": "c94dc7d7e68d88a184c442b128c9587c"
+    "revision": "5d78056f12fe4115d58d0eb706e4979f"
   }, {
     "url": "guide-agent.html",
-    "revision": "aac84372a7ba9d0108e52adfe8c01c26"
-  }, {
-    "url": "mentions-legales.html",
-    "revision": "8a835776f5d368e25b66877a456dedc9"
+    "revision": "2d0622dcb46be8db8b406e3f2abcf4f7"
   }, {
     "url": "conditions.html",
-    "revision": "194ea085583f8595a1933de11415b89f"
+    "revision": "ac20ae864b5f37ff509c897cbb502c3a"
   }, {
     "url": "confidentialite.html",
-    "revision": "9bea59aa89d2b369c62c803922d63beb"
+    "revision": "d97260a3a9a2a44a845097b149f4b268"
   }, {
     "url": "suppression-donnees.html",
-    "revision": "2a5473b125314bd1be74ed0292972775"
+    "revision": "9486f247d513f888e0b1c1da64034906"
   }, {
     "url": "faq.html",
-    "revision": "e0aa4b64a02139603ff495104c8c8f69"
+    "revision": "03f98c2939c480bab1bc35bfb868690d"
   }, {
     "url": "contact.html",
-    "revision": "1c85181e02a85e4abe9fb8ac201bb4aa"
+    "revision": "d20d3f42714e610e06549319769efb03"
   }, {
     "url": "favicon-48x48.png",
     "revision": "3e2d792d7d15fbc33bab9ffe99710f04"
@@ -129,13 +126,13 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "b35db618bd2a11d99049dedf9f325793"
   }, {
     "url": "index.html",
-    "revision": "510d5e2c411339bb816d2e0b5de367e3"
+    "revision": "a4e7ff93fbbfc7b812349845cb52edd5"
   }, {
     "url": "index-pnSFC0dR.css",
     "revision": "c773adbaf0dc9b7c6136c520d6772f43"
   }, {
-    "url": "index-EANRSFpY.js",
-    "revision": "8780b6089a97e1569478d57ffd2caf16"
+    "url": "index-7raqvtTx.js",
+    "revision": "f21591c33627399ad24a79252b94c7b3"
   }, {
     "url": "icon.svg",
     "revision": "a873a78047c356d8347b3b8ec4c3ca7c"
@@ -171,12 +168,12 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "740bcf1e48fdf438e7e8678fbf5a8cd7"
   }, {
     "url": "sitemap.xml",
-    "revision": "cd924f95594d297177ca910283941bd8"
+    "revision": "4d3db3b957c16ad8f229ecfed66d7921"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "9830e30f2b0eab67c18b07f994b196ba"
+    "revision": "80a41aaed025a4f3aa6aae858cf3c51d"
   }], {});
   workbox.cleanupOutdatedCaches();
-  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {denylist: [/^\/(a-propos|faq|guide-locataire|guide-agent|contact|mentions-legales|conditions|confidentialite|suppression-donnees)(\.html)?$/]}));
+  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {denylist: [/^\/(a-propos|faq|guide-locataire|guide-agent|contact|conditions|confidentialite|suppression-donnees)(\.html)?$/]}));
 
 }));
